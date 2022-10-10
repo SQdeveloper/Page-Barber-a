@@ -8,7 +8,7 @@ Este es una pagina web de una barberia inventada hecha con html, css y javaScrip
 * [Portafolio Web](https://sqdeveloper.github.io/Portfolio-web/)
 
 ## Ver ejemplo en vivo
-* [Enlace GitHub](https://sqdeveloper.github.io/Proy-Barberia/)
+* [Enlace GitHub](https://sqdeveloper.github.io/Page-Barberia/)
 
 ## Instalación
 Este proyecto no necesita instalación
