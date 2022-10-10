@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - Jeff's Barbers</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/styleReservas.css">
+</head>
+<body>
+    <div id="container">
+        <div class="menu-responsive">
+            <img id="logo-menu" src="images/logo-barber3.jpg" alt="img-logo"> 
+            <a href="index.html">About</a>
+            <a href="Productos.html">Productos</a>
+            <a href="#">Reservas</a>
+            <a href="Contact.html">Contact</a>
+            <div>
+                <img src="images/instagram.png" alt="">
+                <img src="images/facebook.png" alt="">
+                <img src="images/twitter (1).png" alt="">
+            </div>
+        </div>
+        <div id="slide-bar">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+        </div>
+        <nav>
+            <div id="logo-icon">
+                <img src="images/logo-barber3.jpg"/>
+                <p>Jeff's Barbers</p>
+            </div>
+            <ul>
+                <a href="index.html">About us</a>
+                <a href="Productos.html">Productos</a>
+                <a href="#">Reservas</a>
+                <a href="Contact.html">Contactanos</a>
+            </ul>
+        </nav>
+        <section id="locales">
+            <div class="swiper mySwiper">
+                <div class="slide-content">
+                    <div class="cont-cards swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <img src="images/local2.jpg">
+                            <div class="cont-information">
+                                <h1>Surco</h1>
+                                <p>Dirección del local</p>
+                                <p>Telefono: +51000032934343</p>
+                                <p>Horario: Lunes a Sabado de 8:00am-10:00pm</p>
+                            </div>                            
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="images/local1.jpg">
+                            <div class="cont-information">
+                                <h1>Miraflores</h1>
+                                <p>Dirección del local</p>
+                                <p>Telefono: +51000032934343</p>
+                                <p>Horario: Lunes a Sabado de 8:00am-10:00pm</p>
+                            </div>                            
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="images/local3.jpg">
+                            <div class="cont-information">
+                                <h1>Barranco</h1>
+                                <p>Dirección del local</p>
+                                <p>Telefono: +51000032934343</p>
+                                <p>Horario: Lunes a Sabado de 8:00am-10:00pm</p>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section id="formulario">
+            <h1>¿Quieres mejorar tu look? Reserva aquí.</h1>
+            <form action="" method="">
+                <div>
+                    <label for="name">Name
+                        <input id="name" type="text" placeholder="Ingresa tu nombre" required>
+                    </label>
+                    <label for="telefono">Telefono
+                        <input id="telefono" type="tel" placeholder="Ingresa tu número" required>
+                    </label>
+                </div>
+                <label for="email">Email
+                    <input id="email" type="email" placeholder="Ingresa tu email" required>
+                </label>
+                <div>
+                    <label for="local">Local
+                        <input id="local" type="text" placeholder="Ingresa tu local preferido" required>
+                    </label>
+                    <label for="fecha">Fecha
+                        <input id="fecha" type="date" required>
+                    </label>
+                </div>
+                <input type="submit" value="Reservar">
+            </form>
+        </section>
+
+        <section id="footer">
+            <p>Copyright © 2022 Jefferson Silva <br>All Rights Reserved</p>
+            <!-- <p id="rights">All Rights Reserved</p> -->
+            <picture>
+                <a href="#"><img src="images/instagram.png"></a>
+                <a href="#"><img src="images/facebook.png"></a>
+                <a href="#"><img src="images/twitter (1).png"></a>
+            </picture>
+        </section>
+        <img id="whatsapp" src="images/whatsapp.png">
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/scriptReservas.js"></script>
+</body>
+</html>
