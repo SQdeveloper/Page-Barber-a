@@ -316,13 +316,13 @@ section.footer {
     text-align: center;
     height: 5rem;
     color: white;
-    font-size: 15px;
     background-color: black;
     margin-bottom: 0;
 }
 
-section.footer p:first-child {
+section.footer p {
     margin: 0;
+    font-size: 15px;
 }
 
 section.footer picture {

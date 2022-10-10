@@ -4,6 +4,16 @@ const line2 = document.querySelector(".line2");
 const line3 = document.querySelector(".line3");
 const menuResponsive = document.querySelector(".menu-responsive");
 const listA = document.getElementsByTagName("a");
+const buttonSubmit = document.querySelector("input[type='submit']");
+const ArrayInput = document.querySelectorAll("#contact form input");
+const textArea = document.querySelector("#contact form textarea");
+
+//Evento para mostra modal cuando se envia mensaje en el formulario
+buttonSubmit.addEventListener("click", ()=>{
+    if(ArrayInput[0].value != "" && ArrayInput[1].value != "" && ArrayInput[2].value != "" && textArea.value != ""){
+        swal("Mensaje enviado correctamente", "Te contactaremos pronto.", "success");
+    }    
+});
 
 //Evento para mostrar el menu cuando esta responsive
 slideBar.addEventListener("click", ()=>{
