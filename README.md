@@ -5,7 +5,7 @@ Este es una pagina web de una barberia inventada hecha con html, css y javaScrip
 **Jefferson Silva Quinto**
 
 * [LinkedIn](https://www.linkedin.com/in/sqdeveloper/)
-* [Portafolio Web](https://sqdeveloper.github.io/Portfolio-web/)
+* [Portafolio Web](https://sqdeveloper.github.io/Portfolio/)
 
 ## Ver ejemplo en vivo
 * [Enlace GitHub](https://sqdeveloper.github.io/Page-Barberia/)
